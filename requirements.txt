@@ -4,3 +4,5 @@ langsmith
 langchain-groq
 python-dotenv
 ipykernel
+flask
+gunicorn
