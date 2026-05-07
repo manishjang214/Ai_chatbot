@@ -1,14 +1,89 @@
-# Ai_chatbot
-Production-ready AI chatbot using LLMs and LangChain, featuring context memory, API integration, and scalable backend with FastAPI.
+AI Chatbot
+
+Production-ready AI chatbot built using FastAPI, LangChain, and LLMs.
+This project supports context memory, API integrations, scalable architecture, and modern AI workflow management.
 
 
-1. install uv package manager --- pip install uv
-2. initization uv package ---- uv init
-3. create virtual enviroments ---- uv venv
-4. activate virtual enviroment-- .venv\Scripts\activate
-5. creating requiements.txt file in folder 
-6. add requirements like (langchain, langgraph, langchain-groq,python-dotenv, ipykernel)
-7. add requirements in requirements..txt file and run this cmd--- uv add -r requirements.txt
-8. install ipykernel using this cmd --- uv install ipykernel
-9. create code folder(name according to you )
-10. Create a code file in code folder 
+Features--->
+
+    FastAPI backend
+    LangChain integration
+    LLM support
+    Context memory handling
+    Environment variable management
+    Scalable project structure
+    Virtual environment setup with uv
+
+
+Tech Stack--->
+    Python
+    FastAPI
+    LangChain
+    LangGraph
+    Groq API
+    Uvicorn
+    Python Dotenv    
+
+
+Installation & Setup
+1. Install UV Package Manager
+    ---> using cmd --- pip install uv
+
+2. Initialize UV Project
+    ---> using cmd --- uv init
+
+3. Create Virtual Environment        
+    ---> using cmd --- uv venv
+
+4. Activate Virtual Environment
+    ---> using cmd --- .venv\Scripts\activate
+
+
+Install Dependencies
+1. Create requirements.txt
+    Add the following packages:
+      -  langchain
+      -  langgraph
+      -  langchain-groq
+      -  python-dotenv
+      -  ipykernel
+      -  fastapi
+      -  uvicorn
+
+
+Install Requirements
+----->  uv add -r requirements.txt
+
+
+Install IPykernel
+----->  uv pip install ipykernel
+
+
+Project Structure--->
+
+AI_Chatbot/
+│
+├── app/
+│   ├── main.py
+│   ├── routes/
+│   ├── services/
+│   └── utils/
+│
+├── requirements.txt
+├── .env
+├── README.md
+└── .gitignore
+
+
+Run the Project:----->
+   ----> uvicorn app.main:app --reload
+
+
+
+Future Improvements
+Authentication system
+Chat history database
+Streaming responses
+Multi-model support
+Docker deployment
+Frontend integration   
