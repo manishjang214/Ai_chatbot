@@ -63,15 +63,24 @@ Project Structure--->
 
 AI_Chatbot/
 │
+
 ├── app/
+
 │   ├── main.py
+
 │   ├── routes/
+
 │   ├── services/
+
 │   └── utils/
 │
+
 ├── requirements.txt
+
 ├── .env
+
 ├── README.md
+
 └── .gitignore
 
 
